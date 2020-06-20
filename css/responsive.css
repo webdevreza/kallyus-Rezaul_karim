@@ -1,0 +1,220 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    #service-area .single-box {
+        padding: 26px;
+    }
+    #hero-area h1 {
+        padding: 0px 6%;
+        margin-top: 50px;
+    }
+    .p-5 {
+        padding: 1rem!important;
+    }
+    .logo-b{
+        width: 80%;
+    }
+    #offers-area .single-offer {
+        padding: 10px 7px;
+        margin-bottom: 0;
+    }
+    #offers-area img{
+        margin-top: 12px;
+    }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    #service-area .single-box p {
+        line-height: 1.2;
+    }
+    .navbar-nav .nav-item{
+        padding: 0 5px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        font-size: 14px;
+    }
+    #hero-area h1 {
+        font-weight: 600;
+        padding: 0;
+        margin-top: 30px;
+    }
+    #hero-area p {
+        padding: 25px 7%;
+    }
+    #service-area .single-box {
+        padding: 10px;
+        text-align: center;
+        min-height: 328px;
+        padding-top: 30px;
+    }
+    #service-area .single-box img{
+        width: 25%;
+        margin-bottom: 30px;
+    }
+    #features-area .col-md-6{
+        max-width: 48%;
+    }
+    #offers-area img{
+        margin-bottom: 30px;
+    }
+    .under-line{
+        display: none;
+    }
+    #business-area h2{
+        font-weight: 600;
+        line-height: 1;
+        font-size: 25px;
+    }
+    #business-area p{
+        line-height: 1.2;
+        margin-top: 20px;
+    }
+    .design-top h2 {
+        font-weight: 700;
+        font-size: 27px;
+        margin-bottom: 25px;
+    }
+    .design-top p {
+        margin-bottom: 25px;
+    }
+    .contact-area h2 {
+        font-weight: 700;
+        font-size: 35px;
+        text-align: left;
+    }
+    .contact-area p {
+        line-height: 1.2;
+        margin-bottom: 10px;
+        text-align: left;
+        padding-left: 0;
+    }
+    .logo-b{
+        margin-right: 85px;
+    }
+    .logo-b3{
+        width: 35%;
+    }
+    .logo1{
+        padding-top: 25px;
+    }
+    .logo2{
+        padding-top: 35px;
+    }
+    .logo3{
+        padding-top: 35px;
+    }
+    .logo4{
+        padding-top: 35px;
+    }
+}
+
+
+/* large mobile */
+@media (min-width: 320px) and (max-width: 767px){
+    #hero-area {
+        display: none;
+    }
+    #service-area .single-box {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-left: 10%;
+        transform: translateX(0%);
+        padding: 20px;
+    }
+    #features-area .col-lg-4 {
+        max-width: 100%!important;
+    }
+    #business-area h2 {
+        line-height: 1;
+    }
+    .p-5{
+        padding: 5px!important;
+    }
+    #features-area .single-feature {
+        padding-top: 20px;
+        margin: 15px;
+        box-shadow: -2px 2px 10px#202B30;
+    }
+    .design-feature {
+        box-shadow: -2px -2px 10px #FA9DA4;
+        margin-bottom: 20px;
+    }
+    #offers-area h3 span {
+        color: #202B30;
+    }
+    #offers-area .col-sm-6 {
+        max-width: 100%;
+        margin: 0;
+    }
+    .brand-area {
+        display: none;
+    }
+    #features-area .col-lg-4 {
+        max-width: 48%;
+    }
+    .brand-area .brand{
+        max-width: 50%;
+    }
+    #hero-area p {
+        display: none;
+    }
+    .single-box{
+        max-width: 80%;
+    }
+    .under-line{
+        margin: 0 auto;
+    }
+    .contact-area h2 {
+        text-align: left;
+    }
+    .contact-area p {
+        text-align: left;
+        padding-left: 0;
+    }
+    #offers-area img{
+        margin-bottom: 30px;
+    }
+    .responsive-none{
+        display: none;
+    }
+}
+
+/* small mobile :320px. */
+@media (min-width: 320px) and (max-width: 575px){
+    .responsive-none{
+        display: none;
+    }
+    #offers-area .single-offer {
+        box-shadow: -2px 2px 5px #202B30, 2px -2px 5px #202B30;
+    }
+    .design-top h2 {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    .contact-area h2 {
+        font-size: 25px;
+    }
+    .design-feature {
+        padding: 0px 10px;
+    }
+    #service-area .col-md-4{
+        padding-right: p0x;
+        padding-left: 0px;
+    }
+    #service-area .single-box {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-left: 14%;
+        transform: translateX(0%);
+    }
+    .our-fixed-menu-top .navbar{
+        padding: 20px;
+    }
+}
+
+/* landscape phone */
+@media (orientation:landscape) and (max-width:991px){
+    .our-fixed-menu-top .navbar{
+        position: static;
+    }
+}
